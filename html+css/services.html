@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Егор Ерёмин">
+    <title>Услуги - Мой Сайт</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+    <div class="nav-container">
+        <div class="logo">МойСайт</div>
+        <ul class="nav-menu">
+            <li><a href="index.html" class="active">Главная</a></li>
+            <li class="has-dropdown">
+                <a href="services.html">Услуги</a>
+                <div class="dropdown-trigger-area"></div>
+                <ul class="dropdown-menu">
+                    <li><a href="services.html#web">Веб-разработка</a></li>
+                    <li><a href="services.html#design">Дизайн</a></li>
+                    <li><a href="services.html#mobile">Мобильные приложения</a></li>
+                    <li><a href="services.html#support">Поддержка</a></li>
+                </ul>
+            </li>
+            <li><a href="gallery.html">Галерея</a></li>
+            <li><a href="contact.html">Контакты</a></li>
+        </ul>
+    </div>
+    </nav>
+
+    <div class="main-content">
+        <section class="services-hero">
+            <div class="services-bg"></div>
+            <div class="services-hero-content">
+                <h1>Наши услуги</h1>
+                <p>Профессиональные решения для вашего бизнеса</p>
+            </div>
+        </section>
+
+        <section class="services">
+            <h2>Что мы предлагаем</h2>
+            <div class="services-grid">
+                <div class="service-card" id="web">
+                    <div class="service-icon">💻</div>
+                    <h3>Веб-разработка</h3>
+                    <p>Создаём современные и функциональные веб-сайты</p>
+                </div>
+                <div class="service-card" id="design">
+                    <div class="service-icon">🎨</div>
+                    <h3>Дизайн</h3>
+                    <p>Разрабатываем уникальный и привлекательный дизайн</p>
+                </div>
+                <div class="service-card" id="mobile">
+                    <div class="service-icon">📱</div>
+                    <h3>Мобильные приложения</h3>
+                    <p>Создаём приложения для iOS и Android</p>
+                </div>
+                <div class="service-card" id="support">
+                    <div class="service-icon">🔧</div>
+                    <h3>Поддержка</h3>
+                    <p>Обеспечиваем техническую поддержку и обслуживание</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Навигация между страницами -->
+        <section class="page-navigation">
+            <div class="nav-buttons">
+                <a href="index.html" class="nav-btn">← Главная</a>
+                <a href="gallery.html" class="nav-btn">Галерея →</a>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 МойСайт. Все права защищены.</p>
+    </footer>
+</body>
+</html>

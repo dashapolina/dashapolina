@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Егор Ерёмин">
+    <title>Главная - Мой Сайт</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+    <div class="nav-container">
+        <div class="logo">МойСайт</div>
+        <ul class="nav-menu">
+            <li><a href="index.html" class="active">Главная</a></li>
+            <li class="has-dropdown">
+                <a href="services.html">Услуги</a>
+                <div class="dropdown-trigger-area"></div>
+                <ul class="dropdown-menu">
+                    <li><a href="services.html#web">Веб-разработка</a></li>
+                    <li><a href="services.html#design">Дизайн</a></li>
+                    <li><a href="services.html#mobile">Мобильные приложения</a></li>
+                    <li><a href="services.html#support">Поддержка</a></li>
+                </ul>
+            </li>
+            <li><a href="gallery.html">Галерея</a></li>
+            <li><a href="contact.html">Контакты</a></li>
+        </ul>
+    </div>
+    </nav>
+
+    <div class="main-content">
+        <section class="hero">
+            <div class="hero-bg"></div>
+            <div class="hero-content">
+                <h1>Добро пожаловать</h1>
+                <p>Создаём качественные решения для вашего бизнеса</p>
+                <a href="#register" class="btn btn-primary">Начать работу</a>
+                <a href="services.html" class="btn btn-secondary">Наши услуги</a>
+            </div>
+        </section>
+
+        <section class="registration" id="register">
+            <div class="form-container">
+                <h2>Регистрация</h2>
+                <form>
+                    <div class="form-group">
+                        <input type="text" placeholder="Ваше имя" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="password" placeholder="Пароль" required>
+                    </div>
+                    <button type="submit" class="register-btn">Зарегистрироваться</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="gallery">
+            <h2>Наши проекты</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="images/index/web-dev.png" alt="Проект 1">
+                    <div class="gallery-item-content">
+                        <h3>Веб-разработка</h3>
+                        <p>Современные и адаптивные веб-сайты</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/index/design.jpg" alt="Проект 2">
+                    <div class="gallery-item-content">
+                        <h3>Дизайн</h3>
+                        <p>Креативные дизайн-решения</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/index/consulting.jpg" alt="Проект 3">
+                    <div class="gallery-item-content">
+                        <h3>Консалтинг</h3>
+                        <p>Профессиональные консультации</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="page-navigation">
+            <div class="nav-buttons">
+                <a href="services.html" class="nav-btn">Услуги →</a>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 МойСайт. Все права защищены.</p>
+    </footer>
+</body>
+</html>

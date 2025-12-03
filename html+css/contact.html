@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Егор Ерёмин">
+    <title>Контакты - Мой Сайт</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+    <div class="nav-container">
+        <div class="logo">МойСайт</div>
+        <ul class="nav-menu">
+            <li><a href="index.html" class="active">Главная</a></li>
+            <li class="has-dropdown">
+                <a href="services.html">Услуги</a>
+                <div class="dropdown-trigger-area"></div>
+                <ul class="dropdown-menu">
+                    <li><a href="services.html#web">Веб-разработка</a></li>
+                    <li><a href="services.html#design">Дизайн</a></li>
+                    <li><a href="services.html#mobile">Мобильные приложения</a></li>
+                    <li><a href="services.html#support">Поддержка</a></li>
+                </ul>
+            </li>
+            <li><a href="gallery.html">Галерея</a></li>
+            <li><a href="contact.html">Контакты</a></li>
+        </ul>
+    </div>
+    </nav>
+
+    <div class="main-content">
+        <section class="contacts-hero">
+            <div class="contacts-bg"></div>
+            <div class="contacts-hero-content">
+                <h1>Контакты</h1>
+                <p>Свяжитесь с нами удобным для вас способом</p>
+            </div>
+        </section>
+
+        <section class="contacts">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>Контактная информация</h3>
+                    <div class="contact-item">
+                        <i>📍</i>
+                        <span>г. Москва, ул. Примерная, д. 123</span>
+                    </div>
+                    <div class="contact-item">
+                        <i>📞</i>
+                        <span>+7 (999) 123-45-67</span>
+                    </div>
+                    <div class="contact-item">
+                        <i>✉️</i>
+                        <span>info@mysite.ru</span>
+                    </div>
+                    <div class="contact-item">
+                        <i>🕒</i>
+                        <span>Пн-Пт: 9:00-18:00</span>
+                    </div>
+                </div>
+
+                <div class="form-container">
+                    <h2>Обратная связь</h2>
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="Ваше имя" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Ваш email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="Тема сообщения" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Ваше сообщение" rows="5" style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 5px; font-family: Arial; resize: vertical;"></textarea>
+                        </div>
+                        <button type="submit" class="register-btn">Отправить сообщение</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Навигация между страницами -->
+        <section class="page-navigation">
+            <div class="nav-buttons">
+                <a href="gallery.html" class="nav-btn">← Галерея</a>
+                <a href="index.html" class="nav-btn">Главная</a>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 МойСайт. Все права защищены.</p>
+    </footer>
+</body>
+</html>

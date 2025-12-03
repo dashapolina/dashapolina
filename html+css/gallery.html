@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Егор Ерёмин">
+    <title>Галерея - Мой Сайт</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+    <div class="nav-container">
+        <div class="logo">МойСайт</div>
+        <ul class="nav-menu">
+            <li><a href="index.html" class="active">Главная</a></li>
+            <li class="has-dropdown">
+                <a href="services.html">Услуги</a>
+                <div class="dropdown-trigger-area"></div>
+                <ul class="dropdown-menu">
+                    <li><a href="services.html#web">Веб-разработка</a></li>
+                    <li><a href="services.html#design">Дизайн</a></li>
+                    <li><a href="services.html#mobile">Мобильные приложения</a></li>
+                    <li><a href="services.html#support">Поддержка</a></li>
+                </ul>
+            </li>
+            <li><a href="gallery.html">Галерея</a></li>
+            <li><a href="contact.html">Контакты</a></li>
+        </ul>
+    </div>
+    </nav>
+
+    <div class="main-content">
+        <section class="gallery-hero">
+            <div class="gallery-bg"></div>
+            <div class="gallery-hero-content">
+                <h1>Наши работы</h1>
+                <p>Примеры выполненных проектов</p>
+            </div>
+        </section>
+
+        <section class="gallery">
+            <h2>Портфолио</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="images/gallery/corporate.jpg" alt="Проект 1">
+                    <div class="gallery-item-content">
+                        <h3>Корпоративный сайт</h3>
+                        <p>Разработка сайта для крупной компании</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/gallery/eshop.webp" alt="Проект 2">
+                    <div class="gallery-item-content">
+                        <h3>Интернет-магазин</h3>
+                        <p>Создание платформы для онлайн-продаж</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/gallery/blog.jpg" alt="Проект 3">
+                    <div class="gallery-item-content">
+                        <h3>Блог платформа</h3>
+                        <p>Разработка системы для ведения блога</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/gallery/mobile-app.png" alt="Проект 4">
+                    <div class="gallery-item-content">
+                        <h3>Мобильное приложение</h3>
+                        <p>Создание приложения для стартапа</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Навигация между страницами -->
+        <section class="page-navigation">
+            <div class="nav-buttons">
+                <a href="services.html" class="nav-btn">← Услуги</a>
+                <a href="contact.html" class="nav-btn">Контакты →</a>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 МойСайт. Все права защищены.</p>
+    </footer>
+</body>
+</html>
